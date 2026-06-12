@@ -1,5 +1,5 @@
 # PDF-Based RAG Chatbot
-<video src="[https://github.com](https://github.com/ujjwalkumar14b/PDF_Based_RAG_Chatbot/blob/main/deployment.mp4)" width="100%" controls></video>
+<video src="https://github.com/ujjwalkumar14b/PDF_Based_RAG_Chatbot/blob/main/deployment.mp4" width="100%" controls></video>
 
 ## Overview
 This project implements a Retrieval-Augmented Generation (RAG) based chatbot that allows users to upload PDF documents and ask questions about their content. The application uses Hugging Face Embeddings for semantic representation, FAISS as the vector database for similarity search, and Llama 3 running locally through Ollama for answer generation. The system extracts text from uploaded PDFs, splits the content into manageable chunks, generates embeddings, stores them in a vector database, retrieves the most relevant chunks for a user query, and generates context-aware answers using a local Large Language Model (LLM).
