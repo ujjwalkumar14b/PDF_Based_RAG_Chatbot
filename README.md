@@ -10,11 +10,14 @@ PDF_Based_RAG_Chatbot/
 │
 ├── templates/
 │   └── index.html                 # Frontend UI
-├── uploads/                       # Uploaded PDF files
-├── deployment.mp4                 # App preview
-├── requirements.txt               # Project dependencies
+├── uploads/
+│   └── Document.pdf               # Document to Upload
+├── .gitignore
+├── LICENSE                        # MIT License
+├── README.md                                 
 ├── app.py                         # Flask application
-└── README.md
+├── deployment.mp4                 # App preview
+└── requirements.txt               # Project dependencies
 ```
 
 
